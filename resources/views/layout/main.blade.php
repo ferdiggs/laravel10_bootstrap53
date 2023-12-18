@@ -41,6 +41,13 @@
                 <i class="fas fa-user"></i> Kurikulum</a>
                 </li>
 
+                <li class="nav-item">
+                <a class="nav-link {{ request()->segment('1') =='mapel'  ? 'active' : '' }}" aria-current="page" href="{{ route('mapel.index') }}">
+                <i class="fas fa-tachometer-alt"></i> MAPEL</a>
+                </li>
+
+                
+
             </ul>
             </div>
         </div>
